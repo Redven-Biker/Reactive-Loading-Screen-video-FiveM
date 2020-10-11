@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+Audiovisualization using the html canvas element.
+©2017, Dominik Hofacker
+https://www.behance.net/dominikhofacker
+Please consider supporting this project on behance:
+https://www.behance.net/gallery/49260123/Web-Audio-Visualization
+-->
+    <head>
+        <meta charset="utf-8">
+        <meta content='IE=8' http-equiv='X-UA-Compatible'>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css' />
+        
+    </head>
+    <body>
+        <div class="video-background">
+            <iframe class="videoContainer__video" height="100%" width="130%" src="https://www.youtube.com/embed/HWurFwhu09s?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1" frameborder="0"></iframe>
+       </div>
+       	<span id="loading"></span>
+        <div id="song_info_wrapper">
+			<div id="title">Unknown</div>
+        </div>
+		<canvas id="c"></canvas>
+        <canvas id="freq" width="1024" height="525"></canvas>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/bufferloader.js"></script>
+        <script src="js/id3-minimized.js"></script>
+        <script src="js/audiovisualisierung.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
