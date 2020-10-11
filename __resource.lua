@@ -2,7 +2,6 @@ files {
     'index.html',
     'css/style.css',
     'js/*.js',
-    'img/background.jpg',
     'music/loading.ogg'
 }
 
