@@ -36,7 +36,7 @@ function playSample() {
 	request.addEventListener("error", transferFailed);
 	request.addEventListener("abort", transferCanceled);
 	
-	request.open('GET', 'music/loading.ogg', true);
+	request.open('GET', 'music/music.mp3', true);
 	request.responseType = 'arraybuffer';
 
 	request.onload = function() {
